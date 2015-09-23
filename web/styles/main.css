@@ -1,0 +1,133 @@
+/* type selectors */
+
+body {
+  background-color: white;
+  border: 2px solid blue;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 15px auto;/* changed from 800 pixels */
+  max-width: 960px;
+  padding: 15px 0;
+  width: 96%; 
+}
+section, 
+aside, 
+h1, 
+h2, 
+h3, 
+p {
+  margin: 0;
+  padding: 0;
+}
+section, 
+aside {
+  margin-bottom: 1em;
+}
+p {
+  font-size: 95%;
+  line-height: 130%;
+  padding-bottom: .5em;
+}
+a:hover,
+a:focus {
+  color: red;
+}
+
+/* the styles for the header */
+header {
+  border-bottom: 2px solid blue;
+  padding-bottom: 2em;
+  width: 100%;                         /* full width of body */
+
+}
+
+header h2 {
+  color: blue;
+  font-size: 220%;
+  margin-bottom: .25em;
+  margin-left: 17.5%;              /* 140 / 800 (increased from 120) */
+}
+
+header h3 {
+  color: red;
+  font-size: 130%;
+  margin-left: 17.5%;              /* 140 / 800 (increased from 120) */
+}
+
+header img {
+  float: left;
+  margin-left: 2.5%;                /* 20 / 800 */
+}
+
+/* the styles for the section */
+section {
+  float: left;
+  padding: 2.5% 2.5% 0 2.5%;       /* 20 / 800 */
+  width: 50%;                       /* 400 / 800 */
+}
+
+section img {
+  margin-bottom: .5em;
+  max-width: 100%;
+}
+
+section ul {
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+section li {
+  font-size: 95%;
+  padding-bottom: .35em;
+}
+
+section h1 {
+  font-size: 170%;
+  margin-bottom: .35em;
+}
+
+section h2 {
+  font-size: 130%;
+  margin-bottom: .35em;
+}
+
+/* the styles for the sidebar */
+aside {
+  float: left;
+  padding: 2.5%;                 /* 20 / 800 */
+  margin-right: 2.5%;        /* 20 / 800 */
+  width: 37.5%;                 /* 300 / 800 */
+}
+
+aside h2 {
+  font-size: 120%;
+  padding-bottom: .5em;
+}
+
+aside p {
+  margin-bottom: .5em;
+}
+
+aside ul {
+  margin-bottom: 1.5em;
+  margin-top: 0;
+}
+
+aside li {
+  font-size: 95%;
+  padding-bottom: .35em;
+}
+
+/* the styles for the footer */
+footer {
+  border-top: 2px solid blue;
+  clear: both;
+  padding-top: .7em;
+  width: 100%;                    /* full width of body */
+}
+
+footer p {
+  font-size: 80%;
+  margin-right: 2.5%;          /* 20 / 800 */
+  text-align: right;
+}
